@@ -1,0 +1,61 @@
+.contacts {
+    background-color: #ba9fb7;
+    padding: 75px 0;
+
+    p {
+        color: #fff;
+        font-size: 13px;
+        font-family: "Roboto";
+        font-weight: 600;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 24px;
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orFields {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.tip {
+    font-size: 18px !important;
+    font-family: "Cormorant Garamond" !important;
+    margin-bottom: 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 576px) {
+    .contacts {
+        padding: 24px 10px;
+    }
+}
+
+@media (max-width: 920px) {
+    .flex {
+        flex-direction: column;
+        gap: 48px;
+    }
+}

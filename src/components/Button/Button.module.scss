@@ -1,0 +1,28 @@
+.button {
+    height: 50px;
+    min-width: 210px;
+    border: 2px solid #fff;
+    font-family: "Roboto";
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    border-radius: 0;
+
+    &:hover {
+        background-color: #fff;
+        color: #b99bb6;
+    }
+}
+
+.disabled {
+    filter: brightness(0.8);
+    cursor: default;
+    pointer-events: none;
+
+    &:hover {
+        background-color: transparent;
+        border-color: #fff;
+        color: #fff;
+    }
+}
